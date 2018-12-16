@@ -14,8 +14,13 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.each.detect { |cheese| puts "#{cheese}"}
+  ingredients.each.detect
+  if ingredients.include?(cheese_types)
+    "#{cheese_types}"
+  else
+    nil
 end    
+end
   
 #iterate over a given string to check if cheese type is included
  #, return the type of cheese detected
