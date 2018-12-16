@@ -19,7 +19,7 @@ def find_the_cheese(ingredients)
      "#{cheese_types}"
   else
    nil
-end    
+ end    
 end
   
 #iterate over a given string to check if cheese type is included
