@@ -23,5 +23,5 @@ def find_the_cheese(ingredients)
   end  
 end
   
-#iterate over a given string to check if cheese type is included
+#iterate over a given array to check if cheese type is included
  #, return the type of cheese detected
