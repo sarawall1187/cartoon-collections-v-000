@@ -16,7 +16,7 @@ end
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingredients.detect do |cheese|
-    binding.pry
+   
     ingredients.include?(cheese_types) 
   "#{cheese}"
      end  
