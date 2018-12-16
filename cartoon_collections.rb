@@ -1,4 +1,3 @@
-require "pry"
 def roll_call_dwarves(dwarf_names)
   dwarf_names.each_with_index do |name, index|
      puts "#{index + 1}. #{name}"
@@ -21,5 +20,3 @@ def find_the_cheese(ingredients)
   end  
 end
   
-#iterate over a given array to check if cheese type is included
- #, return the type of cheese detected
