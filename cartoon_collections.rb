@@ -18,7 +18,7 @@ def find_the_cheese(ingredients)
   if !ingredients.include?(cheese_types)
      nil
   else
-   "#{cheese_types}"
+   return "#{cheese_types}"
 end    
 end
   
