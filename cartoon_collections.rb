@@ -14,8 +14,7 @@ end
 
 def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  ingredients.each.detect
-  if ingredients.include?(cheese_types)
+  ingredients.detect {||}  if ingredients.include?(cheese_types)
      "#{cheese_types}"
   else
    nil
