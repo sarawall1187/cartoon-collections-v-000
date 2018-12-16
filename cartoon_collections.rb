@@ -18,7 +18,6 @@ def find_the_cheese(ingredients)
     ingredients.include?(cheese_types) 
   end
      "#{cheese}"
- end    
 end
   
 #iterate over a given string to check if cheese type is included
